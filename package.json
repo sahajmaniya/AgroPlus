@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "assert": "^2.1.0",
+    "body-parser": "^1.20.2",
+    "browserify-zlib": "^0.2.0",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "git": "^0.1.5",
+    "https-browserify": "^1.0.0",
+    "init": "^0.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "multer": "^1.4.5-lts.1",
+    "node": "^18.20.1",
+    "react-favicon": "^2.0.4",
+    "react-toastify": "^10.0.5",
+    "socket.io": "^4.7.5",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3",
+    "util": "^0.12.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "plantDetection": "cd Plant_Disease_Dection && python -u main.py",
+    "homepage": "cd app && npm run start",
+    "backend": "cd node-app && npm start",
+    "dev": "concurrently \"npm run plantDetection\" \"npm run homepage\" \"npm run backend\""
+  }
+}

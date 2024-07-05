@@ -1,0 +1,45 @@
+
+.liked-main2, .login-forn2{
+    position: absolute;
+    top: 100px;
+}
+
+.useradded-img2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+object-fit:cover;
+}
+.likeItem2{
+    width: 97%;
+    margin: auto;
+    margin-right: 0px;
+   margin-left: 20px;
+
+}
+.likeCart2{
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+.likeCatogary2{
+    color: #18B5A3;
+}
+.read-more-btn2{
+    background-color: white;
+ 
+    color:green;
+ }
+ .likeproduct-header2{
+    background: hsla(181, 98%, 50%, 1);
+
+    background: linear-gradient(90deg, hsla(181, 98%, 50%, 1) 0%, hsla(0, 0%, 100%, 1) 0%, hsla(175, 60%, 55%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(181, 98%, 50%, 1) 0%, hsla(0, 0%, 100%, 1) 0%, hsla(175, 60%, 55%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(181, 98%, 50%, 1) 0%, hsla(0, 0%, 100%, 1) 0%, hsla(175, 60%, 55%, 1) 100%);
+    height: 100vh;
+ }
+.p-header2{
+    margin-left:50px;
+    font-size: 30px;
+ }
